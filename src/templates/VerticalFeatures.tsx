@@ -2,28 +2,25 @@ import { VerticalFeatureRow } from '../feature/VerticalFeatureRow';
 import { Section } from '../layout/Section';
 
 const VerticalFeatures = () => (
-  <Section
-    title="Your title here"
-    description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus malesuada nisi tellus, non imperdiet nisi tempor at."
-  >
+  <Section>
     <VerticalFeatureRow
-      title="Your title here"
-      description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse bibendum, nunc non posuere consectetur, justo erat semper enim, non hendrerit dui odio id enim."
-      image="/assets/images/feature.svg"
-      imageAlt="First feature alt text"
+      title="What?"
+      description="Hyru containers are made from the fallen leaves of the Areca Palm tree. These leaves are sun-dried and heat pressed into containers."
+      image="/assets/images/leaf.png"
+      imageAlt="Hyru containers"
     />
     <VerticalFeatureRow
-      title="Your title here"
-      description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse bibendum, nunc non posuere consectetur, justo erat semper enim, non hendrerit dui odio id enim."
-      image="/assets/images/feature2.svg"
-      imageAlt="Second feature alt text"
+      title="Close to nature"
+      description="No chemicals, no bonding agents, No lacquers or sealants used. Each plate is hand-pressed from a single leaf. The leaves have a wood-like appearance, providing a touch of Nature to every dish they are used for."
+      image="/assets/images/nature.png"
+      imageAlt="Close to nature"
       reverse
     />
     <VerticalFeatureRow
-      title="Your title here"
-      description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse bibendum, nunc non posuere consectetur, justo erat semper enim, non hendrerit dui odio id enim."
-      image="/assets/images/feature3.svg"
-      imageAlt="Third feature alt text"
+      title="It's so good"
+      description="The containers are also 100% biodegradable, disposable, and spill-proof making them perfect for indoor or outdoor events. The material does not react with food. All manner of wet/hot/cold foods can be served."
+      image="/assets/images/recycle.png"
+      imageAlt="Container features"
     />
   </Section>
 );

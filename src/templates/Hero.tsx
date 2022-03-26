@@ -8,17 +8,12 @@ import { NavbarTwoColumns } from '../navigation/NavbarTwoColumns';
 import { Logo } from './Logo';
 
 const Hero = () => (
-  <Background color="bg-gray-100">
+  <Background color="bg-[url('/assets/images/hero.jpg')] bg-cover">
     <Section yPadding="py-6">
       <NavbarTwoColumns logo={<Logo xl />}>
         <li>
-          <Link href="https://github.com/ixartz/Next-JS-Landing-Page-Starter-Template">
-            <a>GitHub</a>
-          </Link>
-        </li>
-        <li>
-          <Link href="/">
-            <a>Sign in</a>
+          <Link href="/contact">
+            <a>Contact Us</a>
           </Link>
         </li>
       </NavbarTwoColumns>
@@ -28,15 +23,15 @@ const Hero = () => (
       <HeroOneButton
         title={
           <>
-            {'The modern landing page for\n'}
-            <span className="text-primary-500">React developers</span>
+            {'For you and for\n'}
+            <span className="text-green-500">The Environment</span>
           </>
         }
-        description="The easiest way to build a React landing page in seconds."
+        description="Hyru is an end to end circular solution that provides a complete plastic footprint evaluation of businesses in the food takeaway industry. It does that by developing a sustainable alternative while highlighting measurable impact."
         button={
-          <Link href="https://creativedesignsguru.com/category/nextjs/">
+          <Link href="/calculator">
             <a>
-              <Button xl>Download Your Free Theme</Button>
+              <Button xl>Check Footprint</Button>
             </a>
           </Link>
         }
